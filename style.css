@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: skyblue;
+}
+
+.card {
+    width: 32rem;
+    background-color: whitesmoke;
+    border: navy 10px double;
+    margin:0 10px ;
+}
+
+.card-img-top {   
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.card-body {
+    border-top: 1px solid rgb(190, 190, 190);
+    margin-top: 5px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    color: navy;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.btn {
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
